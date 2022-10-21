@@ -92,7 +92,7 @@ const Main = () => {
           </div>
         </div>
         <div>
-          <div className="hear-com">Our Clients</div>
+          <div className="hear-com">Our Partners</div>
           <Box
             display="flex"
             flexDir={["column", "column", "row", "row"]}
@@ -113,10 +113,13 @@ const Main = () => {
                 h="100%"
                 w="100%"
                 alt="polygon"
+
                 // minH="14"
                 // minW="14"
               />
-              <Link href="https://gari.network">Chingari</Link>
+              <Link href="https://gari.network" target="_blank">
+                Chingari
+              </Link>
             </Box>
             <Box
               display="flex"

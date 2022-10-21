@@ -114,14 +114,14 @@ const Header = () => {
         display="flex"
         flexDir="column"
         mt="2"
-        gap="4"
+        gap="2"
         align="center"
         mb="120px"
       >
         <Text fontSize="3xl" textAlign="center" fontWeight="600">
           Backed by the best
         </Text>
-        <Text color="#6b6f76" fontSize="sm">
+        <Text color="#6b6f76" fontSize="sm" mb="4">
           You're in good hands. Promise.
         </Text>
         <Box display="flex" flexDir="column">
@@ -135,7 +135,7 @@ const Header = () => {
           >
             <Box display="flex" flexDir="column" gap="2" alignItems="center">
               <Image
-                h="20"
+                h="16"
                 // w="12"
                 minH="12"
                 // minW="12"
@@ -150,8 +150,8 @@ const Header = () => {
             <Box display="flex" flexDir="column" gap="2" alignItems="center">
               <Image
                 src={polygon}
-                h="16"
-                w="40"
+                h="14"
+                w="36"
                 alt="Polygon"
                 minH="14"
                 minW="14"
@@ -160,7 +160,7 @@ const Header = () => {
             </Box>
             <Box display="flex" gap="2" alignItems="center">
               <Image
-                h="24"
+                h="16"
                 w="48"
                 src={solana}
                 alt="Solana"
@@ -172,24 +172,24 @@ const Header = () => {
             </Box>
             <Box display="flex" gap="2" alignItems="center">
               <Image
-                h="12"
-                w="12"
-                minH="12"
-                minW="12"
+                h="10"
+                w="10"
+                minH="10"
+                minW="10"
                 src={superteamdao}
                 alt="SuperteamDAO"
                 rounded="full"
               />
-              <Text color={"#5423DF"} fontWeight={700} fontSize={"32"}>
+              <Text color={"#5423DF"} fontWeight={700} fontSize={"28"}>
                 superteam
               </Text>
               {/* Superteam DAO */}
             </Box>
             <Box display="flex" flexDir="column" gap="2" alignItems="center">
               <Image
-                h="12"
+                h="8"
                 // w="12"
-                minH="12"
+                minH="8"
                 // minW="12"
                 src={
                   "https://github.com/devfolioco/brand-assets/blob/main/Logo%20+%20Text%20-%20Colored/Devfolio%20-%20Normal.png?raw=true"
