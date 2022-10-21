@@ -97,7 +97,7 @@ const Main = () => {
             display="flex"
             flexDir={["column", "column", "row", "row"]}
             gap={{ base: "8", md: "16" }}
-            ml={{ base: "4", md: "0" }}
+            ml={{ base: "0", md: "0" }}
             justifyContent="center"
             alignContent="center"
           >
@@ -110,7 +110,7 @@ const Main = () => {
             >
               <Image
                 src={chingari}
-                h="100%"
+                h="20"
                 w="100%"
                 alt="polygon"
 
@@ -129,14 +129,7 @@ const Main = () => {
               gap="2"
               alignItems="center"
             >
-              <Image
-                src={huddle01}
-                h="5%"
-                w="100%"
-                alt="polygon"
-                minH="14"
-                minW="14"
-              />
+              <Image src={huddle01} h="14" w="100%" alt="polygon" />
               <Link href="https://huddle01.com">Huddle01</Link>
             </Box>
             <Box
@@ -146,7 +139,7 @@ const Main = () => {
               gap="2"
               alignItems="center"
             >
-              <Image src={ftxsuperteam} h="100%" w="100%" alt="ftxsuperteam" />
+              <Image src={ftxsuperteam} h="14" w="100%" alt="ftxsuperteam" />
               <Link href="https://ftxsuperteam.com">FTX Superteam</Link>
             </Box>
           </Box>
